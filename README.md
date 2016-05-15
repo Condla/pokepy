@@ -2,7 +2,7 @@
 Command line wrapper of Pokeapi for educational purposes.
 
 ## Prerequisites
-In order to access the Pokeapi using the requests module Python must be compiled with OpenSSL version >= 1.0.2
+In order to access the Pokeapi using the requests module, Python must be compiled with OpenSSL version >= 1.0.2
 
 ## Installation
 For testing purposes it's best you install pokepy via pip in a virtual environment.
@@ -36,8 +36,15 @@ Options:
     -h --help                 # Show this help
 ```
 
-## Example
+## Examples
 ```bash
+# Get the name of Pokemon 150
 $ pokepy pokemon 150
-Mewtu
+mewtwo
+# Get the name of Pokemon type 3
+$pokepy type -i 3
+flying
+# Get the Pokemon ability 6
+$ pokepy ability -i 6
+damp
 ```
